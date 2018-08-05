@@ -35,11 +35,11 @@
         //ツイートエリアの作成
         removeAllChildren(tweetDivided);
         const anchor = document.createElement('a');
-        const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag=%E3--&text='
+        const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag=%E3%81%82%E3%AA%E3%81%9F%E3%81%AE%E3%81%84%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D&text='
         + encodeURIComponent(result);
         anchor.setAttribute('href', hrefValue);
         anchor.className = 'twitter-hashtag-button';
-        anchor.innerText = 'Tweet #%E3--';
+        anchor.innerText = 'Tweet #%E3%81%82%E3%AA%E3%81%9F%E3%81%AE%E3%81%84%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D';
         tweetDivided.appendChild(anchor);
 
         twttr.widgets.load();
